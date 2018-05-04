@@ -1,0 +1,185 @@
+// Here you can add other styles
+.navbar {
+
+  .form-inline {
+    i {
+      color: $navbar-color;
+    }
+    .form-control {
+      min-width: 250px;
+      color: $navbar-color;
+      border: 0;
+
+  &::placeholder {
+    color: $navbar-color;
+  }
+}
+.form-control::-webkit-input-placeholder { color: $navbar-color; }
+.form-control:-moz-placeholder { color: $navbar-color; }
+.form-control::-moz-placeholder { color: $navbar-color; }
+.form-control:-ms-input-placeholder { color: $navbar-color; }
+}
+}
+
+.sidebar {
+  .sidebar-header {
+    .img-avatar {
+      width: 80px;
+      margin: 20px auto 10px;
+      border-radius: 50em;
+    }
+
+    > .btn-group {
+      margin-top: 10px;
+    }
+
+    .btn-link {
+      color: $text-muted;
+
+      &:hover {
+        color: $sidebar-color;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.app-header.navbar .navbar-brand {
+  background-size: 180px auto;
+}
+
+.card-header .card-actions a, .card-header .card-actions button {
+  display: block;
+  float: left;
+  width: auto;
+  min-width: 50px;
+  padding: 0.75rem 0.75rem;
+  margin: 0 !important;
+  text-align: center;
+  border: 0;
+  border-left: 1px solid #d1d4d7;
+  box-shadow: 0;
+}
+
+.breadcrumb {
+  background: #FFF;
+  border-bottom: 1px solid #e3e8ec;
+  margin-bottom: 1.5rem;
+}
+
+.jumbotron {
+ padding: 0;
+}
+
+.list-group-item {
+  text-align: left;
+}
+
+.field-info {
+
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0;
+
+  .label {
+    width: 200px;
+  }
+
+  .value {
+
+    flex : 1;
+
+  }
+
+
+}
+
+.form-horizontal.form-quote {
+
+  .form-group {
+
+    input[type=number] {
+      max-width: 200px;
+    }
+
+  }
+
+  .card-title {
+    margin: 1rem 0;
+    border-bottom: solid 1px #d1d4d7;
+    padding: 1rem 0;
+  }
+
+
+}
+
+//A sortir dans une feuille dédié à la commnande
+.detail-financement {
+
+  font-size: 14px;
+
+  .row {
+    padding: 10px 0;
+  }
+
+  .col-md-4 {
+    text-align: right;
+  }
+
+
+}
+
+
+.form-vertical {
+
+  .form-group {
+
+    flex-direction: column;
+
+    .col-md-3, .col-md-9 {
+      flex: 1;
+      max-width: 100%;
+    }
+
+  }
+
+}
+
+.DateInput_input {
+  padding: 7px 12px 7px !important;
+}
+
+.react-bootstrap-daterangepicker-container {
+  display: block !important;
+}
+
+.select2Search {
+  .Select-control {
+    border-radius: 0;
+    height: 44px;
+
+    .Select-multi-value-wrapper {
+      font-size: 20px;
+    }
+  }
+}
+
+
+.aside-menu {
+
+  .list-group {
+    .list-group-item {
+
+      border:none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+      margin-bottom: 0;
+
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+      max-width: 90%;
+  }
+}
